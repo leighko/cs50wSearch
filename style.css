@@ -1,0 +1,11 @@
+#search_form {
+    text-align: center;
+    margin: 400px auto;
+}
+
+#links {
+    color: pink;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
