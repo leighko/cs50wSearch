@@ -12,18 +12,11 @@
     color: white;
 }
 
-#advanced_button {
-    display: flex;
-    margin: 15px auto;
-    padding: 5px; 
-    text-align: center;
-}
-
 body {
     background-color: rgb(15, 47, 15);
 }
 
-input {
+input, button {
     border-radius: 25px;
     border: 2px solid rgb(245, 159, 173);
 }
@@ -34,17 +27,16 @@ input {
     height: 5px;
 }
 
-#button {
-    display: flex;
+.buttons {
     margin: 15px auto;
-    padding: 5px; 
-    width: auto;
-    height: auto;
+    padding: 5px 5px 0px 10px; 
+    align-items: center;
     text-align: center;
 }
 
 a {
     color: rgb(246, 171, 246);
+    padding: 10px;
 }
 
 #links {
